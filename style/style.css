@@ -4,7 +4,6 @@
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 50px;
 }
 nav ul li{
   list-style: none;
@@ -12,4 +11,28 @@ nav ul li{
 nav ul{
   display: flex;
 
+}
+.primary-button{
+  background-color: #0D1321;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.banner{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('../assets/Hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
