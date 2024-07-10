@@ -1,0 +1,14 @@
+
+
+/* nav sytle */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul{
+  display: flex;
+
+}
